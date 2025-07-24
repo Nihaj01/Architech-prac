@@ -163,11 +163,26 @@ main>section{
     margin-bottom: 0;
    
 }
+#experience-badge{
+    padding: 45px 42px ;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -150px;
+    margin-bottom: -150px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.Best-Architect img{
+    width: 100%;
+}
 
 /* responsive media query  for mobile*/
 @media screen and (max-width: 576px) {
     .navbar,.nav-links,
-    .teams{
+    .teams,.benefits{
         flex-direction: column;
     }
     .team-images-container,.fact-container,.sponsor-companies{
@@ -183,6 +198,10 @@ main>section{
     .sponsor-companies{
         justify-items: center;
         gap: 50px;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
