@@ -141,6 +141,28 @@ main>section{
 .sponsor-companies img{
     filter: grayscale(100);
 }
+/* benefits */
+.benefits{
+    gap: 100px;
+}
+.benefit-title{
+    border-left: 6px solid coral;
+    padding-left: 22px ;
+}
+.benefit-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow:0 4px 30px 0 rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.benefit-card .benefit-sub-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
 
 /* responsive media query  for mobile*/
 @media screen and (max-width: 576px) {
