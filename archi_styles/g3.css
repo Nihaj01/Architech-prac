@@ -9,3 +9,38 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared colors */
+.text-gray{
+    color:#424242;
+}
+.text-light{
+    color: #727272;
+}
+.bg-light{
+    color: rgb(255, 144,14,0.1);
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 50px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.navbar,.banner{
+    max-width: 144px;
+    margin: 0 auto;
+}
